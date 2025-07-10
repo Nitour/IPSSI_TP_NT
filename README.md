@@ -158,17 +158,6 @@ Ce projet déploie une infrastructure complète sur AWS à l’aide de Terraform
     └── alb/
 ```
 
----
-
-_Tu peux maintenant facilement tester, modifier, et détruire ton infra avec `terraform destroy` !_
-
-```
-
-Prêt pour le `README.md` global de repo ou tu veux continuer un autre module ?
-
-
-
-
 # Infrastructure Terraform – Root Module
 
 ctte partie gère déploiement complet de l'infrastructure via plusieurs modules réutilisables. Chaque module est défini dans un sous-répertoire et est appelé depuis le fichier `main.tf`.
@@ -224,4 +213,4 @@ provider "aws" {
 }
 ```
 
-Chaque module peut être documenté individuellement dans son propre `README.md`, voir les répertoires `modules/*`.
+Chaque module est documenté individuellement dans son propre `README.md`, voir les répertoires `modules/*`.
