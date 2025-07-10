@@ -1,17 +1,14 @@
 /.aws
-.terraform.lock.hcl
-crash.log
-*.log
-*.exe
 .aws/
-# Terraform
+
+
 .terraform/
 *.tfstate
 *.tfstate.backup
 .terraform.lock.hcl
 crash.log
 
-# Windows & Visual Studio
+*.log
 *.exe
 *.user
 *.suo
@@ -20,4 +17,3 @@ crash.log
 .vscode/
 bin/
 obj/
-*.log
